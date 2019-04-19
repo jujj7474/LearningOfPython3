@@ -13,9 +13,9 @@ keyword.kwlist
 
 #数据类型    充分利用内存
 age = 20
-bool = "False"
+booler = "False"
 print(type(age))
-print(type(bool))
+print(type(booler))
 
 #字符串输入输出
 username = input('请输入用户名：')
