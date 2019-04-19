@@ -1,5 +1,26 @@
+#Hello world
 name = input('please input your name:')
 print('Hello,',name)
+
+#变量
+myAge = 20  # 变量 赋值符 值
+
+#关键字
+'''
+import keyword
+keyword.kwlist
+'''
+
+#数据类型    充分利用内存
+age = 20
+bool = "False"
+print(type(age))
+
+#字符串输入输出
+username = input('请输入用户名：')
+password = input('请输入密码：')
+print('用户名：',username)
+print('密码:',password)
 
 #print absolute value of an integer:   注释(解释器会忽略)
 a = 100
