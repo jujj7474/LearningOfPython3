@@ -15,6 +15,7 @@ keyword.kwlist
 age = 20
 bool = "False"
 print(type(age))
+print(type(bool))
 
 #字符串输入输出
 username = input('请输入用户名：')
