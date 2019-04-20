@@ -1,6 +1,7 @@
 #Hello world
 name = input('please input your name:')
 print('Hello,',name)
+<<<<<<< HEAD
 
 #变量
 myAge = 20  # 变量 赋值符 值
@@ -29,3 +30,5 @@ if a >= 0:       # ‘:’形成代码块，默认4空格缩进
   print(a)       # 缩进：复制粘贴功能失效
 else:            # python大小写敏感
   print(-a)
+=======
+>>>>>>> parent of 35381d7... Update HelloName.py
