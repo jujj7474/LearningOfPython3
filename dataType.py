@@ -57,3 +57,21 @@ names = ['Jerry','Bob','Tom','Smith']
 select_name = [names.upper() for name in names if len(name)>3]
 print(select_name)
 #['JERRY','SMITH']
+
+#(元组)  元素不可变；索引值访问元组数据
+student = ('xiaowang','xiaozhang','xiaoliu')
+
+#字典  {键:值} {'name':班长}
+#同列表可存储多个数据，根据键查找某个元素
+'''
+增  变量名['键']=数据，若'键'不存在会新增
+删  del可删除，clear()可清空(字典依然存在)
+改  通过key找到值可修改
+len() 键值对个数  keys() 所有键
+values() 所有值   items() 键值对
+'''
+studentdict = {'name':Bob,'age':20,'weight':55}
+studentdict{'name2'} = "Herb"
+print(studentdict)
+
+print(studentdict.keys())
