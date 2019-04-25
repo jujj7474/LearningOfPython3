@@ -1,4 +1,4 @@
-#控制流和运算符 判断if 循环for、while  
+#控制流 判断if 循环for、while  
 if 10>5:
 print('10>5)'
 
@@ -35,3 +35,5 @@ while i<5:
 	if i==3:
 		continue
 	print(i)
+
+#运算符  比较 赋值  逻辑 成员 身份 
